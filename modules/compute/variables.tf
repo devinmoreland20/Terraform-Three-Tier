@@ -1,0 +1,15 @@
+# -------- modules/compute/variables
+#vars for compute
+variable "instance_count" {}
+variable "instance_type" {}
+variable "ami" {}
+variable "security_groups" {}
+variable "bastion_sg" {}
+variable "public_subnet" {}
+variable "user_data" {}
+variable "key_name" {}
+variable "tg_port" {}
+variable "lb_target_group_arn" {}
+variable "app_tier_sg" {}
+variable "private_subnet_app_tier" {}
+variable "app_tier_target_group_arn" {}
